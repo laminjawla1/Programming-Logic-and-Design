@@ -7,6 +7,7 @@ Design a Python program that displays the following information:
 • Your email address
 • Your college major
 """
+
 print("Name:", "Lamin Jawla")
 print("Address:", "Tintinbato, Busumbala")
 print("Telephone:", "+220 2933536")

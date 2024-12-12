@@ -2,6 +2,7 @@
 9. Swap Two Numbers
 Design a Python program that asks the user to enter two numbers. The program should swap the numbers and display.
 """
+
 num1 = int(input("Enter First Number: "))
 num2 = int(input("Enter Second Number: "))
 

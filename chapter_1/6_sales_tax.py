@@ -5,6 +5,7 @@ the VAT tax. The program should display the amount of the purchase, the VAT tax,
 sum of the amount of purchase plus the VAT tax).
 Hint: Use the value 0.15 to represent 15%.
 """
+
 amount_of_a_purchase = float(input("Enter an amount of a purchase: "))
 vat_tax = 0.15 * amount_of_a_purchase
 total_sale = amount_of_a_purchase + vat_tax

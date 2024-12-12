@@ -16,6 +16,7 @@ Design a Python program that displays the following information:
 • Did Joe make money or lose money? Display the amount of profit or loss after Joe sold the stock and paid his broker
 (both times).
 """
+
 shares_at_purchase = 1000
 unit_price_at_purchase = 32.87
 total_at_purchase = shares_at_purchase * unit_price_at_purchase

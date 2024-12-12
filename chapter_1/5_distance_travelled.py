@@ -10,6 +10,7 @@ A car is traveling at 60 miles per hour. Design a Python program that displays t
 - The distance the car will travel in 8 hours
 - The distance the car will travel in 12 hours
 """
+
 speed = 60
 
 print("The distance the car will travel in 5 hours:", speed * 5)
