@@ -4,6 +4,7 @@ Design a Python program that asks the user to create a list of numbers. The prog
 inserting numbers in the list. Then, the program should find the difference between the largest and smallest numbers in
 the list.
 """
+
 # Initialize an empty list to hold the numbers
 list_of_numbers = []
 
