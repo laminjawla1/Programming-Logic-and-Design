@@ -7,7 +7,7 @@ __pycache__/
 *.so
 
 # Distribution / packaging
-out/
+/out/
 .Python
 build/
 develop-eggs/
@@ -162,4 +162,5 @@ cython_debug/
 #.idea/
 
 .vscode
-.idea
+/.idea/
+Programming-Logic-and-Design.iml
