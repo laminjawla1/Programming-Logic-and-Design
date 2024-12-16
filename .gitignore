@@ -163,3 +163,4 @@ cython_debug/
 .vscode
 /.idea/
 Programming-Logic-and-Design.iml
+a.out
