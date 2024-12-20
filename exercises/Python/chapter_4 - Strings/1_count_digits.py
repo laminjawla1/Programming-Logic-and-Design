@@ -23,7 +23,7 @@ for character in string:
         n_digits += 1
 
 # Output the result
-if total == 0:
+if total == None:
     print("Your string contains no valid digits.")
 else:
     print(f"A total of {n_digits} digit(s) found")
