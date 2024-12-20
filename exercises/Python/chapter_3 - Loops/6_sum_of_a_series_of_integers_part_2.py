@@ -20,7 +20,7 @@ for i in range(1, n + 1):
         else:
             print(j, end=" ")
         row_total += j
-        total += row_total
     print("=", row_total)
+    total += row_total
 
 print("The sum of the above series is:", total)

@@ -7,12 +7,9 @@ amount, not the number of pennies.
 """
 
 number_of_days = int(input("Enter the number of days: "))
-total_pay = 1.0
-
-for day in range(number_of_days):
-    total_pay += 2**day
+total_pay = (2**number_of_days) / 100;
 
 if number_of_days > 0:
-    print("Total Pay:", total_pay / 100)
+    print("Total Pay:", total_pay)
 else:
     print("No pay was calculated.")
