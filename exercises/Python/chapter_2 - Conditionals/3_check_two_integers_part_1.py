@@ -10,3 +10,4 @@ if (first_number == 30 or second_number == 30) or (first_number + second_number 
     print(True)
 else:
     print(False)
+
