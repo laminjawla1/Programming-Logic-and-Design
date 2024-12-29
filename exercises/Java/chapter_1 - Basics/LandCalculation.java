@@ -12,5 +12,6 @@ public class LandCalculation {
         final double area = totalSquareMeters / 10000;
 
         System.out.println("Area in Hectares: " + area);
+        scanner.close();
     }
 }

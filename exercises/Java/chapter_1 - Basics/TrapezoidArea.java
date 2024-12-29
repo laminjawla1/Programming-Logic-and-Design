@@ -23,5 +23,6 @@ public class TrapezoidArea {
         area = 0.5f * (baseOne + baseTwo) * height;
 
         System.out.println("Area: " + area);
+        scanner.close();
     }
 }

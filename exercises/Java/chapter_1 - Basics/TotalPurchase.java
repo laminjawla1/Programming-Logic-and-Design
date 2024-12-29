@@ -30,5 +30,6 @@ public class TotalPurchase {
         System.out.println("Subtotal: " + subTotal);
         System.out.println("Sales Tax: " + salesTax);
         System.out.println("Total: " + total);
+        scanner.close();
     }
 }

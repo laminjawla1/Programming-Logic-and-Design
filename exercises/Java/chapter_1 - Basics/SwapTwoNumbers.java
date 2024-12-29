@@ -20,5 +20,6 @@ public class SwapTwoNumbers {
 
         System.out.println("First Number: " + firstNumber);
         System.out.println("Second Number: " + secondNumber);
+        input.close();
     }
 }

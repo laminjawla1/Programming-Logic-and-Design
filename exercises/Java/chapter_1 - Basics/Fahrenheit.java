@@ -20,5 +20,6 @@ public class Fahrenheit {
         fahrenheit = (float) ((9.0/5.0) * celsius + 32);
 
         System.out.println("Temperature in fahrenheit: " + fahrenheit);
+        input.close();
     }
 }

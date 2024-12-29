@@ -15,5 +15,6 @@ public class SalesPrediction {
         double profit = totalSales * 0.23;
 
         System.out.println("Profit: " + profit);
+        scanner.close();
     }
 }

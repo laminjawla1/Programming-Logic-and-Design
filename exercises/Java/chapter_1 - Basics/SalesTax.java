@@ -17,5 +17,6 @@ public class SalesTax {
         System.out.println("Purchase Amount: " + purchaseAmount);
         System.out.println("Vat Tax: " + vatTax);
         System.out.println("Total: " + total);
+        scanner.close();
     }
 }
