@@ -10,12 +10,25 @@
 int main(int argc, char const *argv[])
 {
     int days;
-    double total_pay;
+    double daily_pay = 1;
+    double total_pay_in_pennies;
+    double total_pay_in_dollars;
 
     printf("Enter number of days: ");
     scanf("%d", &days);
 
-    total_pay = pow(2, days) / 100;
-    printf("Total Pay: %.2lf\n", total_pay);
+    if (days <= 0)
+    {
+        printf("The number of days must be greater than zero.");
+        return (1);
+    }
+
+    for (int i = 1; i <= days; i++)
+    {
+        total_pay_in_pennies += daily_pay;
+        daily_pay *= 2;
+    }
+    total_pay_in_dollars = total_pay_in_pennies / 100;
+    printf("Total Pay %d days is %.2lf\n", days, total_pay_in_dollars);
     return 0;
 }
