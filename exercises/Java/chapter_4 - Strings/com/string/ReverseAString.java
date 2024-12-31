@@ -1,6 +1,6 @@
 // 2. Reverse a string
 // Design a Python program that will ask the user to enter a string. The program will reverse and display the string.
-package com.strings;
+package com.string;
 
 import java.util.Scanner;
 

@@ -1,7 +1,7 @@
 // 3. Remove non alphabet characters
 // Design a Python program that will ask the user to enter a string. The program will remove all non-alphabet characters
 // (digits and symbols) and display the result.
-package com.strings;
+package com.string;
 
 import java.util.Scanner;
 

@@ -2,7 +2,7 @@
 
 // Design a Python program that will ask the user to enter a string.
 // The program will count the sum of all digits in the string.
-package com.strings;
+package com.string;
 
 import java.util.Scanner;
 

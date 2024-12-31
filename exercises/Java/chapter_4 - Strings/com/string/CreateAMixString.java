@@ -2,7 +2,7 @@
 // Design a Python program that will ask the user to enter three strings. The program will check the length of each string
 // and use the length of the shortest as reference. Then the program will create and display a fourth string with the first
 // character from each string, followed by the second character from each string till reaching the reference length.
-package com.strings;
+package com.string;
 
 import java.util.Scanner;
 
